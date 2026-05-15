@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+  <style>
+    header{
+      background-image:url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1200');
+      background-size:cover;
+      background-position:center;
+      height:300px;
+    }
+
+    nav{
+      background:#0d6efd;
+      padding:15px;
+    }
+
+    nav ul{
+      display:flex;
+      justify-content:center;
+      list-style:none;
+      gap:30px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:#dbe9ff;
+    }
+
+    main{        
+      margin-left:200px ;
+      padding:50px;      
+      min-height:400px;
+    }
+
+    h1{
+      color:#0d6efd;
+      text-align: center;
+      margin-bottom:20px;
+    }
+
+    p{
+      text-align:justify;
+      line-height:1.8;
+      color:#333;
+    }
+
+      *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      display:flex;
+      background:#f4f6f9;
+    }
+
+    /* MENU LATERAL */
+
+    .sidebar{
+      width:200px;
+      height:100vh;
+      background:#0d6efd;
+      padding-top:15px;
+      position:fixed;
+      left:0;
+      top:300px;
+    }
+
+    .sidebar h2{
+      color:white;
+      text-align:center;
+      margin-bottom:30px;
+    }
+
+    .sidebar ul{
+      list-style:none;
+    }
+
+    .sidebar ul li{
+      margin:10px 10px;
+    }
+
+    .sidebar ul li a{
+      display:block;
+      color:white;
+      text-decoration:none;
+      padding:15px 25px;
+      transition:0.3s;
+      font-size:18px;
+    }
+
+    .sidebar ul li a:hover{
+      background:#0b5ed7;
+      padding-left:35px;
+    } 
+
+        footer{       
+    margin-left:50%;
+    margin-top: 350px;
+    }    
+
+  </style>  
+</head>
+<body>
+<div class="wrapper">
+  <header></header>
+  <nav>
+    <ul>
+      <li><a href="index.html" target="_blank">Página Principal</a></li>
+      <li><a href="sobre.html" target="_blank">Sobre a Clínica</a></li>
+          <li><a href="horario.html" target="_blank">Horário de Atendimento</a></li>
+      <li><a href="contato.html" target="_blank">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+            <h1>Clínica Saúde em Sintonia</h1>
+       <p>
+               A Clínica Saúde em Sintonia oferece atendimento completo e humanizado para cuidar da sua saúde e bem-estar em todas as fases da vida. Contamos com uma equipe de profissionais qualificados em diversas especialidades, garantindo um atendimento de excelência, conforto e confiança para nossos pacientes.
+       </p><br>
+        <p>
+                Nossa clínica atende áreas como Cardiologia, Oftalmologia, Clínica Geral, Odontologia e Ginecologia, proporcionando diagnósticos precisos, prevenção e tratamentos modernos em um só lugar.
+        </p><br>
+        <p>
+                Na Saúde em Sintonia, acreditamos que cuidar da saúde é cuidar da qualidade de vida. Por isso, unimos tecnologia, dedicação e atendimento acolhedor para oferecer a melhor experiência em saúde para você e sua família.
+        </p><br><br>
+          <p>
+      Bem-vindo ao sistema da clínica. Escolha uma especialidade
+      no menu lateral para acessar mais informações.
+    </p>
+          </main>
+
+        <!-- MENU LATERAL -->
+
+  <div class="sidebar">
+
+    <h2>Especialidades</h2>
+
+    <ul>
+       <li><a href="clinico.html" target="_blank"><strong>Clínico Geral</strong></a></li>
+       <li><a href="cardio.html" target="_blank"><strong>Cardiologia</strong></a></li>
+       <li><a href="oftalmo.html" target="_blank"><strong>Oftalmologia</strong></a></li>
+       <li><a href="odonto.html" target="_blank"><strong>Odontologia</strong></a></li>
+       <li><a href="ginecologia.html" target="_blank"><strong>Ginecologia</strong></a></li>
+   </ul>
+   </div>
+       
+    <footer>
+        <p>📍 Rua da Saúde, 123 - São Paulo</p>
+        <p>📞 (11) 4000-0000</p>
+        <p>✉ contato@saudeemsintonia.com.br</p>
+    </footer> 
+</body>
+</html>
